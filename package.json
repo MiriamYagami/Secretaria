@@ -1,0 +1,24 @@
+{
+  "name": "sitevgp",
+  "version": "1.0.0",
+  "description": "Página principal saúde",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiriamYagami/Secretaria.git"
+  },
+  "author": "T.I Saúde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiriamYagami/Secretaria/issues"
+  },
+  "homepage": "https://github.com/MiriamYagami/Secretaria#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}

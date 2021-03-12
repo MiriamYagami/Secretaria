@@ -1,0 +1,101 @@
+body{
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-blend-mode: overlay; 
+    background-color:  rgb(51, 51, 51);
+    background-size: cover;
+    height: 70em;
+}
+
+#topo{
+    display: flex;
+    width: -webkit-fill-available;
+    margin: -9px -8px 0px -10px;
+}
+
+.container{
+    width: 100%;
+}
+
+ul{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+ul li{ 
+    /* text-align: center;
+    padding: 3em 0 6em 0; */
+    display: inline-block;
+    text-align: center;
+    width: 35%;
+    vertical-align: top;
+    margin: 75px 1.5%;
+    padding: 0px 49px;
+}
+
+#texto{
+      color: snow;
+      font-size: 20px;
+
+    }
+
+#TextoCovid{
+
+    display: block;
+    color: snow;
+    font-size: 20px;
+    vertical-align: 131px;
+}
+
+section{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+iframe{
+    display: inline-block;
+    text-align: center;
+    width: 45em;
+    vertical-align: top;
+    margin: 0px 1.5%;
+    padding: 0px 31px;
+}
+
+.Rodape{
+
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+footer{
+
+    background-color: snow;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 -3px -7px;
+}
+
+@media screen and (max-width: 480px){
+
+    #topo{
+        display: flex;
+        width: -webkit-fill-available;
+        margin: -9px -596px 0px -10px;
+    }
+    
+    ul li{ 
+        /* text-align: center;
+        padding: 3em 0 6em 0; */
+        display: inline-block;
+        text-align: center;
+        width: 81%;
+        vertical-align: top;
+        margin: 75px 1.5%;
+        padding: 0px 49px;
+    }
+}
